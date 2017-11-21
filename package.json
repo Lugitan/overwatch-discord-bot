@@ -1,0 +1,20 @@
+{
+  "name": "testoverwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "oversmash": "^1.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1",
+    "webpack": "^3.8.1"
+  }
+}
