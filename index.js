@@ -13,7 +13,7 @@ app.listen(PORT, () => {
 
 app.get("/", (req, res) => {
   const ow = oversmash.default()
-  ow.player('Lugitan-2628').then(player => {
+  ow.playerStats('Lugitan-2628', 'eu').then(player => {
     res.send(player);
   })
 })
