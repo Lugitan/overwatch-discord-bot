@@ -11,9 +11,9 @@ app.listen(PORT, () => {
   console.log("App running on port: ", PORT);
 })
 
-app.get("/", (req, res) => {
-  const ow = oversmash.default()
-  ow.playerStats('Lugitan-2628', 'eu').then(player => {
-    res.send(player);
-  })
-})
+// app.get("/", (req, res) => {
+//   const ow = oversmash.default()
+//   ow.playerStats('Lugitan-2628', 'eu').then(player => {
+//     res.send(player);
+//   })
+// })
