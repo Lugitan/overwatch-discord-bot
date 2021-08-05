@@ -1,3 +1,4 @@
 node_modules
 bot_token.txt
-*.lock
+yarn.lock
+package-lock.json
